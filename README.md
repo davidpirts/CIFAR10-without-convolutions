@@ -7,4 +7,4 @@ from 2015](https://arxiv.org/abs/1511.02580).
 
 In this repository, we explore how feedforward networks of various depth (1, 2, 20 hidden layers) perform on the 
 CIFAR-10 dataset without extra adjustments such as unsupervised pretraining. After experimenting with different configurations, we (quite expectedly) conclude that 
-the medium-depth dense networks perform best -- the one with 2 hidden layers achieves 55% validation accuracy in our case. Deeper networks (in the present case, the one with 20 hidden layers) do not help performance much, only introducing extra (standard) issues such as higher rates of overfitting and vanishing gradients problems. Taking care of the latter issues leads to significantly longer training times. 
+the medium-depth dense networks perform best -- the one with 2 hidden layers achieves 55% validation accuracy. Deeper networks (in the present case, the one with 20 hidden layers) do not help performance much, only introducing extra (standard) issues such as higher rates of overfitting and vanishing gradients problems. Taking care of the latter issues leads to significantly longer training times. 
