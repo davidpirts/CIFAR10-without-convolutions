@@ -5,7 +5,7 @@ collection of images in the CIFAR-10 dataset is famously much harder to classify
 tricks such as pretraining with autoencoders), the state of the art accuracy (as of five years ago) was reported to lie around 63% in [this paper
 from 2015](https://arxiv.org/abs/1511.02580). 
 
-![Image](https://github.com/dprugby/CIFAR10-without-convolutions/blob/master/selu.png)
+![Image](https://github.com/dprugby/CIFAR10-without-convolutions/blob/master/selu.png = 250 x 250)
 
 In this repository, we explore how feedforward networks of various depth (1, 2, 20 hidden layers) perform on the 
 CIFAR-10 dataset without extra adjustments such as unsupervised pretraining. After experimenting with different configurations, we (quite expectedly) conclude that 
