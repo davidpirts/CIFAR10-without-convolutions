@@ -2,7 +2,7 @@
 
 One can fairly straightforwardly achieve higher than 90% accuracy on the MNIST---and even Fashion MNIST---datasets, using neural networks with dense layers only. The 
 collection of images in the CIFAR-10 dataset is famously much harder to classify *without convolutional layers*. Barring data augmentation, but invoking elaborate
-tricks such as pretraining with autoencoders, the state of the art accuracy (as of five years ago) was reported to lie around 63% in [this paper
+tricks such as pretraining with autoencoders, the state of the art accuracy (as of five years ago) has been reported to lie around 63% in [this paper
 from 2015](https://arxiv.org/abs/1511.02580). 
 
 <img src="https://github.com/dprugby/CIFAR10-without-convolutions/blob/master/selu.png" align="right" width="400">
