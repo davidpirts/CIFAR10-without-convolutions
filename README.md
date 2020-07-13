@@ -5,6 +5,8 @@ collection of images in the CIFAR-10 dataset is famously much harder to classify
 tricks such as pretraining with autoencoders), the state of the art accuracy (as of five years ago) was reported to lie around 63% in [this paper
 from 2015](https://arxiv.org/abs/1511.02580). 
 
+![Image](https://github.com/dprugby/CIFAR10-without-convolutions/blob/master/selu.png)
+
 In this repository, we explore how feedforward networks of various depth (1, 2, 20 hidden layers) perform on the 
 CIFAR-10 dataset without extra adjustments such as unsupervised pretraining. After experimenting with different configurations, we (quite expectedly) conclude that 
 the medium-depth dense networks perform best -- the one with 2 hidden layers achieves 55% validation accuracy. Deeper networks (in the present case, the one with 20 hidden layers) do not help performance much, only introducing extra (standard) issues such as higher rates of overfitting and vanishing gradients problems. Taking care of the latter issues leads to significantly longer training times. 
