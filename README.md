@@ -13,4 +13,4 @@ CIFAR-10 dataset *without* extra adjustments such as unsupervised pretraining. (
 After experimenting with different configurations, we (quite expectedly) conclude that 
 the medium-depth dense networks perform best -- the one with 2 hidden layers achieves 55% validation accuracy. Deeper networks---in the present case, the one with 20 hidden layers---do not help performance much, only introducing extra standard issues such as higher rates of overfitting and vanishing gradients (with the exception of self-normalizing nets, of course). Taking care of the latter problems leads to significantly longer training times. 
 
-Some of the code follows [A. Geron's book](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/)
+Some of the code is inspired by [A. Geron's book](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/)
